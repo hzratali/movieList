@@ -1,0 +1,69 @@
+.App {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrap {
+  background-color: rgb(233, 231, 231);
+  width: 80vw;
+  min-width: 400px;
+}
+
+.filter {
+  padding: 5px 0px;
+  margin: 12px 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filter-item {
+  width: fit-content;
+  background-color: rgb(207, 203, 203);
+  padding: 5px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  gap: 4;
+}
+
+.table-container {
+  width: 80vw;
+  min-width: 400px;
+}
+
+.filter_text {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 2vw;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(146, 132, 132);
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+th {
+  background-color: rgb(207, 203, 203);
+  padding: 5px 10px;
+}
+
+tr {
+  cursor: pointer;
+}
